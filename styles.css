@@ -508,6 +508,10 @@ footer {
         width: 100%;
     }
 
+   .box-footer-links{
+    flex-direction: column;
+   }
+
     .footer-content {
         flex-direction: column; /* Flex-direction para coluna */
         align-items: center; /* Alinha os itens ao centro */

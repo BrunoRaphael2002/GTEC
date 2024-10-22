@@ -488,16 +488,14 @@ footer {
     }
 
     .fixed-contact {
-        display: flex; /* Torna o botão visível */
-        overflow: visible; /* Garante que o conteúdo seja visível */
-        margin: 0;
-        padding: 10px;
-        z-index: 1000; /* Para garantir que fique acima de outros elementos */
+        display: none; /* Torna o botão visível */
+        overflow: hidden; /* Garante que o conteúdo seja visível */
+        
     }
 
     .fixed-contact img {
-        display: block; /* Torna o ícone visível */
-        width: 65px; /* Tamanho do ícone */
+        display: none; /* Torna o ícone visível */
+       
     }
 }
 

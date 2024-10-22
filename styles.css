@@ -211,7 +211,7 @@ nav ul li h4:hover {
 
 /* marcas*/
 .marcas{
-    background-color:#c7c7c7;
+    background-color:#1a1a1a;
 
 }
 
@@ -358,7 +358,7 @@ footer {
 }
 
 .social-icon img {
-    width: 30px;
+    width: 35px;
     transition: transform 0.3s;
 }
 
@@ -372,9 +372,50 @@ footer {
     border-top: 1px solid #333;
 }
 
+.box-footer-links{
+    display: flex;
+}
+
+.social-icons{
+ display: flex;
+    flex-direction: row;   
+}
+
+
+
+.fixed-contact{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.fixed-contact img{
+    width: 65px;
+
+}
 
 /*Media quarys*/
 @media (max-width: 768px) {
+    header .container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+     .Banner .texto{
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .Banner img{
+        display: none;
+    }
+
+    .faq{
+        text-align: center;
+    }
+
     .desktop-nav {
         display: none;
     }
@@ -389,6 +430,31 @@ footer {
 
     .box-servicos {
         width: calc(50% - 15px);
+        
+    }
+
+    .container-servicos{
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .container-depoimentos{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .marcas{
+        padding-top: 50px;
+        background-color:#1a1a1a;
+    }
+
+    .box-marcas{
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
     }
 
     .contato-container {
@@ -406,6 +472,23 @@ footer {
 
     .social-icons {
         justify-content: center;
+    }
+
+    .box-footer-links{
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .social-icons{
+        display: flex;
+        flex-direction: column;
+    }
+
+  
+
+    .fixed-contact img{
+        width: 75px;
+    
     }
 }
 

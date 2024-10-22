@@ -461,11 +461,14 @@ footer {
         flex-direction: column;
     }
 
-    .contato-info, .contato-form {
+    .contato-info,
+    .contato-form {
         width: 100%;
     }
 
-    .footer-logo, .footer-links, .footer-social {
+    .footer-logo,
+    .footer-links,
+    .footer-social {
         width: 100%;
         text-align: center;
     }
@@ -485,14 +488,16 @@ footer {
     }
 
     .fixed-contact {
-        display: none;
-        overflow: hidden;
+        display: flex; /* Torna o botão visível */
+        overflow: visible; /* Garante que o conteúdo seja visível */
         margin: 0;
-        padding: 0;
+        padding: 10px;
+        z-index: 1000; /* Para garantir que fique acima de outros elementos */
     }
 
     .fixed-contact img {
-        display: none;
+        display: block; /* Torna o ícone visível */
+        width: 65px; /* Tamanho do ícone */
     }
 }
 
@@ -510,11 +515,14 @@ footer {
         align-items: center; /* Alinha os itens ao centro */
     }
 
-    .footer-logo, .footer-links, .footer-social {
+    .footer-logo,
+    .footer-links,
+    .footer-social {
         width: 100%; /* Ajuste na largura */
         text-align: center; /* Centraliza o texto */
     }
 }
+
 
 /*
 

@@ -397,9 +397,132 @@ footer {
 
 /*Media quarys*/
 @media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .Banner .texto {
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .Banner img {
+        display: none;
+    }
+
+    .faq {
+        text-align: center;
+    }
+
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-menu-button {
+        display: block;
+    }
+
+    .Banner h1 {
+        font-size: 28px; /* Ajuste no tamanho da fonte */
+    }
+
+    .box-servicos {
+        width: calc(50% - 15px);
+    }
+
+    .container-servicos {
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .container-depoimentos {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .marcas {
+        padding-top: 50px;
+        background-color: #1a1a1a;
+    }
+
+    .box-marcas {
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .contato-container {
+        flex-direction: column;
+    }
+
+    .contato-info, .contato-form {
+        width: 100%;
+    }
+
+    .footer-logo, .footer-links, .footer-social {
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .box-footer-links {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .social-icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fixed-contact {
+        display: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .fixed-contact img {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .box-servicos {
+        width: 100%;
+    }
+
+    .box-depoimento {
+        width: 100%;
+    }
+
+    .footer-content {
+        flex-direction: column; /* Flex-direction para coluna */
+        align-items: center; /* Alinha os itens ao centro */
+    }
+
+    .footer-logo, .footer-links, .footer-social {
+        width: 100%; /* Ajuste na largura */
+        text-align: center; /* Centraliza o texto */
+    }
+}
+
+/*
+
+@media (max-width: 768px) {
     header .container{
         flex-direction: column;
         gap: 20px;
+        width: 100%;
     }
 
      .Banner .texto{
@@ -488,9 +611,13 @@ footer {
     
     .fixed-contact {
        display: none;
+       overflow: hidden;
        margin: 0;
        padding: 0;
     
+    }
+    .fixed-contact img{
+        display: none;
     }
 }
 
@@ -499,7 +626,10 @@ footer {
         width: 100%;
     }
 
+
+
     .box-depoimento {
         width: 100%;
     }
-}
+}  */
+  

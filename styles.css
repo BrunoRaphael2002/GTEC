@@ -485,9 +485,11 @@ footer {
     }
 
   
-
-    .fixed-contact img{
-        width: 75px;
+    
+    .fixed-contact {
+       display: none;
+       margin: 0;
+       padding: 0;
     
     }
 }

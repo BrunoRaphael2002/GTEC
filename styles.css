@@ -99,6 +99,11 @@ nav ul li h4:hover {
     width: 50%;
 }
 
+.Cta a{
+    color: white;
+    text-decoration: none;
+}
+
 .Cta {
     padding: 15px 30px; /* Espaçamento interno do botão */
     border-radius: 25px; /* Bordas arredondadas */

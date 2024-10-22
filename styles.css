@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -501,11 +505,15 @@ footer {
 
 @media (max-width: 480px) {
     .box-servicos {
-        width: 100%;
+        width: 80%;
     }
 
+    .faq-container{
+       padding: 30px;
+       width: 400px;
+    }
     .box-depoimento {
-        width: 100%;
+        width: 80%;
     }
 
    .box-footer-links{
@@ -520,7 +528,7 @@ footer {
     .footer-logo,
     .footer-links,
     .footer-social {
-        width: 100%; /* Ajuste na largura */
+        width: 80%; /* Ajuste na largura */
         text-align: center; /* Centraliza o texto */
     }
 }
